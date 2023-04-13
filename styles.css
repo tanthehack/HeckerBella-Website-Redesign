@@ -217,6 +217,45 @@ nav .hamburger-btn {
     margin-bottom: 0;
 }
 
+.services-card {
+    position: relative;
+}
+
+.services-card h2 {
+    margin-bottom: var(--fs-400);
+}
+
+.services-card a {
+    color: var(--white);
+    padding: 12px 14px;
+    background-color: #000000;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 800;
+
+    position: absolute;
+    top: -3%;
+    right: 0;
+
+    border: 5px solid white;
+    opacity: 0;
+
+    transform: translateY(-200%);
+
+    transition: opacity 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.services .services-card:nth-child(2n+2) a {
+    background-color: var(--light-grey);
+    color: var(--black);
+}
+
+.services-card:hover a {
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+}
+
 .cards-container {
     padding: 60px;
     display: grid;
@@ -635,6 +674,12 @@ footer a {
 
     width: 130px;
     text-align: center;
+}
+
+footer a:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: background-color 0.2s ease-in-out;
 }
 
 .col2>div {
