@@ -13,6 +13,28 @@ Hey Hoomans 👋, I was given this task to test my knowledge on HTML, CSS and JS
 
 <br>
 
+## Cool Features 
+Here are some cool features I loved working on! 🤩
+
+<br>
+
+### 1. Card Hover Animations
+
+<br>
+
+![](/Assets/card-feature.gif)
+
+<br>
+
+### 2. Weird Layout :)
+
+<br>
+
+![](/Assets/weird-layout.png)
+
+
+<br>
+
 ## What I learnt!
 
 <br>
